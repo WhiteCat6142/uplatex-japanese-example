@@ -1,0 +1,54 @@
+\documentclass[uplatex,dvipdfmx,12pt,a4j]{jsarticle}
+
+\usepackage[bookmarks=true,bookmarkstype=toc]{hyperref}
+\usepackage{pxjahyper}
+
+\usepackage[top=30truemm,bottom=30truemm,left=20truemm,right=20truemm,dvipdfmx]{geometry}
+\usepackage[dvipdfmx]{graphicx}
+
+\usepackage{amsmath}
+\usepackage{dsfont}
+\usepackage{mathrsfs}
+
+\usepackage[amsmath]{ntheorem}
+\theoremheaderfont{\normalfont\bfseries}
+\newtheorem*{Lemma}{Lemma}
+\newtheorem{Theorem}{Theorem}
+\newtheorem{Proposition}{Proposition}
+
+\hypersetup{pdftitle={uplatex latest Japanese},pdfauthor={WhiteCat6142},pdfkeywords={upTeX,upLaTeX,Unicode,CJK}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\bf\thepage}
+\rhead{uplatex}
+\cfoot{}
+
+\begin{document}
+\title{uplatex latest}
+\author{WhiteCat6142 \\whitecat6142+git@gmail.com}
+\date{\today}
+\maketitle
+
+\begin{abstract}
+abstracts
+\end{abstract}
+
+\section{section No.1} 
+
+\begin{Lemma}
+Hello. \footnote{footnotes}
+\end{Lemma}
+
+\begin{Proposition}
+Prop.
+\end{Proposition}
+
+\textbf{Proof}  :
+ aaa
+
+\begin{Theorem}
+Theorem!
+\end{Theorem}
+
+\end{document}
