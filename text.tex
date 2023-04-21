@@ -1,5 +1,7 @@
 \documentclass[uplatex,dvipdfmx,12pt,a4j]{jsarticle}
 
+\usepackage[final]{showkeys} 
+
 \usepackage[bookmarks=true,bookmarkstype=toc]{hyperref}
 \usepackage{pxjahyper}
 
@@ -17,6 +19,9 @@
 \newtheorem{Proposition}{Proposition}
 
 \hypersetup{pdftitle={uplatex latest Japanese},pdfauthor={WhiteCat6142},pdfkeywords={upTeX,upLaTeX,Unicode,CJK}}
+
+\usepackage[style=alphabetic,arxiv=abs]{biblatex}
+\addbibresource{text.bib}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -42,13 +47,16 @@ Hello. \footnote{footnotes}
 
 \begin{Proposition}
 Prop.
+\autocite{einstein}
 \end{Proposition}
 
 \textbf{Proof}  :
- aaa
+aaa
 
 \begin{Theorem}
 Theorem!
 \end{Theorem}
+
+\printbibliography[title={Bibliography}]
 
 \end{document}

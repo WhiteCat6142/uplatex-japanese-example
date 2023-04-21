@@ -3,3 +3,9 @@
 *.log
 *.out
 *.thm
+*.bcf
+*.blg
+*.bbl
+*.fls
+*.fdb_latexmk
+*.xml
